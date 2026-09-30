@@ -1,0 +1,12 @@
+### LOGIN
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "abc@gmail.com",
+  "password": "123"
+}
+
+### GET PROFILE / TOKEN TEST
+GET http://localhost:3000/api/auth/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywiaWF0IjoxNzkwNTg1Njk2LCJleHAiOjE3OTA1ODkyOTZ9.GPUJ8VMP21V6YH1mpL8afVXpsosG51DZSHoFumHcK1M
